@@ -1,0 +1,74 @@
+h1 {
+  font-size: 3rem;
+  color: #333;
+  text-align: center;
+  margin: 75px auto;
+  max-width: 800px;
+}
+
+.subHeading {
+  text-align: center;
+  font-size: 18px;
+  margin: 10px auto;
+  max-width: 800px;
+}
+
+.ctaButton {
+  display: block;
+  margin: 35px auto;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+}
+
+.gridSection {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  justify-content: center;
+  margin-left: 200px;
+}
+
+.gridItem {
+  border-radius: 20px;
+
+  padding: 10px;
+  text-align: center;
+  max-width: 220px; /* Adjusted to allow better spacing */
+  overflow: hidden;
+}
+
+.gridImages {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.gridItem p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.keyFeatures {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.gridImagesAdhaar {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: -20px;
+  margin-bottom: -30px;
+}
+.description {
+  font-size: 2px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 500;
+}

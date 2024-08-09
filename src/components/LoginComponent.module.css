@@ -1,0 +1,12 @@
+.signUp {
+    color: lightblue;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+.heading {
+    font-size: 30px;
+    margin-left: 200px;
+    font-weight: 500;
+}
+  

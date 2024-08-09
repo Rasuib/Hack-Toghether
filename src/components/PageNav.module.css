@@ -1,0 +1,56 @@
+img {
+  height: auto;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.nav {
+  display: flex;
+
+  padding: 10px 20px;
+  background-color: #ffffff;
+
+  margin-left: 1px;
+}
+button {
+  cursor: pointer;
+  padding: 10px 10px;
+  text-wrap: wrap;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center; /* Align items vertically center */
+  gap: 20px; /* Adds space between each item */
+  padding: 0;
+  margin-right: 0px;
+}
+
+.nav ul li p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  display: block; /* Make links block-level elements */
+  padding: 5px; /* Add padding around links */
+}
+
+.nav ul li a.active {
+  font-weight: bold;
+  color: #5a5a5a;
+}
+.connectWallet {
+  background-color: blue;
+  color: #ffffff;
+  border-radius: 30px;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}

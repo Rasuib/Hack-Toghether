@@ -1,0 +1,6 @@
+.searchBar {
+  border-radius: 25px; /* Adjust this value for more or less roundness */
+  border: 1px solid #ccc; /* Optional: for a light border */
+  padding: 10px 15px; /* Optional: for some padding inside the input */
+  width: 100%; /* Optional: to make the input take up the full width of its container */
+}

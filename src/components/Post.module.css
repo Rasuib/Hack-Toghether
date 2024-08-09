@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 500px;
+  border: 1px solid #ccc;
+  max-width: 500px;
+
+  border-radius: 5px;
+  flex-direction: column;
+}
+.firstRow {
+  display: flex;
+  margin: 5px 0;
+  padding: 10px;
+
+  gap: 20px;
+
+  max-width: 500x;
+  padding-bottom: 10px;
+}
+.name {
+  font-weight: bold;
+}
+.postImage {
+  height: 100px;
+  border-radius: 0px;
+  padding-left: 0px;
+  margin: 0px;
+  width: 500px;
+  height: auto;
+}
+.secondRow {
+  display: flex;
+  flex-direction: column;
+}
+
+.reaction {
+  display: flex;
+  justify-content: space-around;
+}
+.reaction Button {
+  border: none;
+  width: 100px;
+  padding: 20px 30px;
+  border-radius: 5px;
+  background-color: white;
+}
+.reaction Button:hover {
+  background-color: #f3f3f3;
+  transition: 0.5s;
+}

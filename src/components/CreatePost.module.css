@@ -1,0 +1,39 @@
+img {
+  height: 40px;
+  width: auto;
+}
+.firstRow {
+  display: flex;
+  margin: 5px 0;
+  gap: 20px;
+  border-bottom: 1px solid #ccc;
+  max-width: 470px;
+  padding-bottom: 10px;
+}
+.container {
+  margin-left: 500px;
+  margin-top: 40px;
+  border: 1px solid #ccc;
+  max-width: 500px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.postInput {
+  height: 40px;
+  width: 400px;
+  border-radius: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.secondRow {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+  gap: 20px;
+  border-bottom: 1px solid #ccc;
+  max-width: 470px;
+  padding-bottom: 10px;
+  border-bottom: 0;
+  padding-top: 5px;
+}
